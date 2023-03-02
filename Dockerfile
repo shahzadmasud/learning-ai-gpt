@@ -26,8 +26,8 @@ RUN ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime && \
 ENV PYTHONPATH /usr/local/lib/python3.6 
 COPY . ./
 COPY requirements.txt /tmp/requirements.txt
-RUN python -m spacy download en
 RUN pip3 install -r /tmp/requirements.txt
+RUN python3 -m spacy download en
 
 # model zoo
 RUN mkdir models && \
