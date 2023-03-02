@@ -22,7 +22,7 @@ _Note: Make sure your Docker setup allocates enough memory to building the conta
 You can then enter the image  
 
 ```bash
-ip-192-168-22-157:transfer-learning-conv-ai loretoparisi$ docker run --rm -it convai bash
+ip-192-168-10-9:learning-ai-gpt$ docker run --rm -it convai bash
 root@91e241bb823e:/# ls
 Dockerfile  README.md  boot                  dev  home         lib    media  models  proc              root  sbin  sys  train.py  utils.py
 LICENCE     bin        convai_evaluation.py  etc  interact.py  lib64  mnt    opt     requirements.txt  run   srv   tmp  usr       var
